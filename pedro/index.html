@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Profissão Pedreiro</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+🏗️ Pedreiro
+</div>
+
+<ul>
+
+<li><a href="#inicio">Início</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#habilidades">Habilidades</a></li>
+<li><a href="#salario">Salário</a></li>
+<li><a href="#quiz">Quiz</a></li>
+
+</ul>
+
+<button id="tema">🌙</button>
+
+</nav>
+
+<div class="banner" id="inicio">
+
+<h1>Profissão Pedreiro</h1>
+
+<p>
+Construindo o futuro com qualidade e dedicação.
+</p>
+
+<button onclick="rolar()">Saiba Mais</button>
+
+</div>
+
+</header>
+
+<section id="sobre">
+
+<h2>O que faz um Pedreiro?</h2>
+
+<p>
+
+O pedreiro é responsável pela execução das construções civis.
+Ele trabalha em casas, edifícios, escolas, hospitais,
+pontes e diversas obras importantes.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Construção</h3>
+<p>Levanta paredes, muros e edifícios.</p>
+</div>
+
+<div class="card">
+<h3>Reformas</h3>
+<p>Realiza manutenção e melhorias em imóveis.</p>
+</div>
+
+<div class="card">
+<h3>Acabamento</h3>
+<p>Assenta pisos, azulejos e revestimentos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="habilidades">
+
+<h2>Habilidades Necessárias</h2>
+
+<div class="barra">
+
+<p>Experiência</p>
+
+<div class="progresso">
+<div style="width:95%">95%</div>
+</div>
+
+<p>Precisão</p>
+
+<div class="progresso">
+<div style="width:90%">90%</div>
+</div>
+
+<p>Trabalho em equipe</p>
+
+<div class="progresso">
+<div style="width:85%">85%</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="salario">
+
+<h2>Calculadora de Salário</h2>
+
+<p>Informe o valor da diária.</p>
+
+<input type="number" id="diaria">
+
+<button onclick="calcular()">
+Calcular
+</button>
+
+<h3 id="resultado"></h3>
+
+</section>
+
+<section id="quiz">
+
+<h2>Quiz</h2>
+
+<p>Qual ferramenta é usada para assentar tijolos?</p>
+
+<button onclick="quiz('A')">Marreta</button>
+
+<button onclick="quiz('B')">Colher de Pedreiro</button>
+
+<button onclick="quiz('C')">Serrote</button>
+
+<h3 id="quizResultado"></h3>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 - Site desenvolvido em HTML, CSS e JavaScript.
+
+</p>
+
+</footer>
+
+</body>
+</html>
